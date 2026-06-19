@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task1-Portfolio</title>
+</head>
+<body>
+
+<header>
+    <nav>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="themeButton">☾</button>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <img src="Profile-pic.png" alt="Profile">
+    <h1>Hardik Marlapudi</h1>
+    <h3>Computer Information Systems Student</h3>
+
+    <p>
+        Passionate about Web Development,
+        Software Engineering, and Cybersecurity.
+    </p>
+
+    <a href="#projects" class="btn">View Projects</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="about-card">
+
+        <h3>Who I Am</h3>
+
+        <p>
+            I am a Computer Information Systems student at the University of South Carolina with a minor in Business Information Management.
+        </p>
+
+        <p>
+            My goal is to build software solutions that are practical, scalable, and user-friendly.
+        </p>
+
+    </div>
+
+    <div class="about-card">
+        <h3>Interests</h3>
+
+        <ul>
+            <li>Web Development</li>
+            <li>Software Enginnering</li>
+            <li>Cybersecurity</li>
+            <li>Cloud Technologies</li>
+            <li>Modern UI Design</li>
+        </ul>
+
+    </div>
+
+</div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>Java</div>
+        <div>React</div>
+        <div>Vue</div>
+        <div>Git</div>
+        <div>Node.js</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-container">
+        
+        <div class="card">
+            <h3>Weather Microservices</h3>
+
+            <p>
+                Spring Boot microservices application with Weather, Alert, and Location Services.
+            </p>
+
+            <a href="https://github.com/HardikMarlapudi/Weather-Microservices" class="btn"> 
+                View Project
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Portfolio Website</h3>
+
+            <p>
+                Responsive personal portfolio website.
+            </p>
+
+            <a href="https://github.com/HardikMarlapudi/Portfolio" class="btn">View Project</a>
+        </div>
+
+        <div class="card">
+            <h3>BMI Calculator</h3>
+
+            <p>
+                Calculates BMI and health category.
+            </p>
+            
+            <a href="https://hardikmarlapudi.github.io/BMI-Calculator/" class="btn">View Project</a>
+        </div>
+
+        <div class="card">
+            <h3>Calculator App</h3>
+
+            <p>
+                JavaScript calculator supporting arithmetic operations.
+            </p>
+
+            <a href="https://hardikmarlapudi.github.io/Calculator_React.js/" class="btn">View Project</a>
+        </div>
+
+    </div>
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+
+    <iframe 
+        src="resume.pdf" 
+        width="100%" 
+        height="600">
+    </iframe>
+
+    <a class="btn" href="resume.pdf" download>
+        Download Resume
+    </a>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    
+    <div class="achievement-container">
+
+    <div class="card">
+        <h3>President's List</h3>
+        <p>2023-2024</p>
+    </div>
+
+    <div class="card">
+        <h3>Dean's List</h3>
+        <p>2024-2025</p>
+    </div>
+
+    <div class="card">
+        <h3>SC Life Scholarship</h3>
+        <p>Recipient</p>
+    </div>
+
+ </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+        <input 
+            type="text"
+            placeholder="Name"
+            required
+        >
+
+        <input
+            type="email"
+            placeholder="email"
+            required
+        >
+
+        <textarea
+            placeholder="Message"
+            required
+        ></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+    <p id="success"></p>
+
+</section>
+
+<div class="social-links">
+    <a href="https://github.com/HardikMarlapudi">GitHub</a>
+    <a href="https://linkedin.com/in/hardikmarlapudi">LinkedIn</a>
+    <a href="mailto:hardik.a.marlapudi@gmail.com">Email</a>
+</div>
+
+<footer>
+    <p>&copy; 2026 Hardik Marlapudi. All Rights Reserved.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
