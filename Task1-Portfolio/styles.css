@@ -167,6 +167,12 @@ h2 {
     box-shadow: 0 2px 8px rgba(0,0,0, .08);
 }
 
+.skills-grid div:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+    cursor: pointer;
+}
+
 .card {
     background-color: white;
     padding: 25px;

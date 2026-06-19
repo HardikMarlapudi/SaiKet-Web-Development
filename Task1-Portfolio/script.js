@@ -11,20 +11,17 @@ if(localStorage.getItem("theme") === "dark") {
 themeBtn.addEventListener("click", () => {
 
     document.body.classList.toggle("dark");
-
+    
     if (
         document.body.classList.contains("dark")
     ) {
         themeBtn.textContent = "☀";
-
         localStorage.setItem(
             "theme",
             "dark"
         );
-        
     } else {
         themeBtn.textContent = "☾";
-
         localStorage.setItem(
             "theme",
             "light"
@@ -36,10 +33,7 @@ const form = document.getElementById("contactForm");
 const success = document.getElementById("success");
 
 form.addEventListener("submit", (event) => {
-
     event.preventDefault();
-
     success.textContent = "Thank you for contacting me. I will reach out soon.";
-
     form.reset();
 });
