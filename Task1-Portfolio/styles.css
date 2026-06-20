@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 :root {
@@ -251,6 +252,7 @@ textarea {
 }
 
 .social-links {
+    font-size: 20px;
     text-align: center;
     margin: 40px 0;
 }
